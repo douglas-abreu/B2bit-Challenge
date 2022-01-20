@@ -48,18 +48,6 @@
       </div>
       <!----><!----><!---->
       <cu-document-page-content _ngcontent-xjf-c146="" class="cu-document-page-content ng-star-inserted" _nghost-xjf-c145="">
-         <div _ngcontent-xjf-c145="" cudropdown="" class="cu-document-page-content__download cu-dropdown">
-            <div _ngcontent-xjf-c145="" cudropdowntoggle="" class="cu-document-page-content__download-toggle cu-dropdown__toggle">
-               <div _ngcontent-xjf-c145="" class="cu-document-page-content__download-icon icon">
-                  <svg class="ng-star-inserted">
-                     <use xlink:href="https://doc.clickup.com/map.1d580c9972269b438a88.svg#svg-sprite-global__download"></use>
-                  </svg>
-                  <!---->
-               </div>
-               <div _ngcontent-xjf-c145="" class="cu-document-page-content__download-label"> Download </div>
-            </div>
-            <!---->
-         </div>
          <div _ngcontent-xjf-c145="" culinkhoverwrapper="" class="cu-editor-wrapper doc-editor">
             <div _ngcontent-xjf-c145="" class="cu-editor-content">
                <div _ngcontent-xjf-c145="" class="cu-editor ql-container ql-snow">
@@ -108,14 +96,14 @@
                         <li data-block-id="block-7eb8a496-e75e-4ed7-9267-be582a2bd5ff" class="ql-rendered-bullet-list ql-align-justify">O ator deve receber, no formato JSON, o feed dos últimos 10 posts.</li>
                      </ul>
                      <p data-block-id="block-de9dd6d6-7754-4382-8388-30534e2345c8" class="ql-align-justify"><br></p>
-                     <p data-block-id="block-5a666e22-d74d-4369-a241-1918d26d5e59" class="ql-align-justify"><br></p>
+                     <p data-block-id="block-5a666e22-d74d-4369-a241-1918d26d5e59" class="ql-align-justify">
                      <a class="cu-table-content__anchor" id="8"></a>
                      <h1 data-block-id="block-1d0087ec-f994-4447-adff-e709d90570ec" class="ql-align-justify"><strong>📜 Regras de negócio</strong></h1>
                      <ul class="ql-rendered-list-container">
                         <li data-block-id="block-f4ab7503-79a5-4956-9ad1-eb6fe3f48434" class="ql-rendered-bullet-list">O usuário não deve ver os próprios Posts.</li>
                      </ul>
                      <p data-block-id="block-59dda979-53c6-4ed1-94d6-ec39169652bc" class="ql-align-justify"><br></p>
-                     <p data-block-id="block-d3a349bd-4664-4272-824e-d5e0f1f52113" class="ql-align-justify"><br></p>
+                     <p data-block-id="block-d3a349bd-4664-4272-824e-d5e0f1f52113" class="ql-align-justify">
                      <a class="cu-table-content__anchor" id="9"></a>
                      <h1 data-block-id="block-a1d9070c-de58-4559-9082-314271196e42" class="ql-align-justify">💯 EXTRAS</h1>
                      <p data-block-id="block-60d18ad3-e366-493e-bc89-cbdfb03a76a0" class="ql-align-justify">Entregas extras que serão muito bem vistas.</p>
