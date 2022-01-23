@@ -26,6 +26,7 @@ SECRET_KEY = 'b8fcc78b-7aed-4c98-b6f2-e6796d073424'
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
 AUTH_USER_MODEL = 'app.User'
 
 # Application references
@@ -104,11 +105,17 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+# Authentication configuration
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': [
-        'rest_framework.authentication.TokenAuthentication',
-    ],
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'app.authentication.ExpiringTokenAuthentication',
+    ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    )
 }
+
+TOKEN_EXPIRED_AFTER_SECONDS = 180
 
 # Internationalization
 # https://docs.djangoproject.com/en/2.1/topics/i18n/

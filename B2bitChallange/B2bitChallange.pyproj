@@ -33,6 +33,9 @@
   <ItemGroup>
     <Compile Include="app\admin.py" />
     <Compile Include="app\apps.py" />
+    <Compile Include="app\authentication.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="app\forms.py" />
     <Compile Include="app\models.py" />
     <Compile Include="app\serializers.py">
@@ -64,9 +67,13 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
+    <Folder Include="app\templates\registration\" />
     <Folder Include="B2bitChallange\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\registration\login.html" />
+    <Content Include="app\templates\registration\logout.html" />
+    <Content Include="app\templates\registration\signup.html" />
     <Content Include="requirements.txt" />
     <Content Include="db.sqlite3" />
     <Content Include="app\static\app\content\bootstrap.css" />

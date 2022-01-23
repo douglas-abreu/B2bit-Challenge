@@ -1,4 +1,3 @@
-
 from rest_framework import serializers
 from app.models import Publication, User
 
@@ -33,3 +32,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     def get_message_field(self, obj):
         return obj.email
+
+class UserLoginSerializer(serializers.Serializer):
+    username = serializers.CharField(required = True)
+    password = serializers.CharField(required = True)
